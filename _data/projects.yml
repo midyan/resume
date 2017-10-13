@@ -2,15 +2,22 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # donutfinder.io
-- project: donutfinder.io
+- project: Free Math Project
   role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Donut Locator is an open source node/ember app that lets users find donuts within a defined radius from their home.
+  duration: Apr, 2017 &mdash; Present
+  url: "https://github.com/free-math"
+  description: It is a (still in development) Open-Source project focused on solving mathematical problems using the most wide-spread language of the century - JavaScript. The OCR module is using the Tesseract OCR under the curtains for optical recognition of equations. I will implement Tesseract Training as well. Sometime. </br></br> I intend to create a large enough data-set to train a specific neural network for solving any math problem. Much like Wolfram, but free as a bird. </br></br> If you happen to be a AI Wizard with nothing better to do, come help me. If you are a NodeJS Ninja and wish to change the world or something, come help me. I don't bite. Just email me.
 
 #Springfield Donut Eater's User Group
-- project: Springfield Donut Eater's User Group
-  role: Co-Founder & Organizer
+- project: Limitless Google Translate API for NodeJS
+  role: Feb, 2017 &mdash; Present
   duration: 2007 &mdash; Present
-  # url: "#"
-  description: DEUG is a local monthly meetup in Springfield where we share all the latest tips and tricks for dat donut lifestyle. I organize the group, and typically eat most of the donuts.
+  url: "https://github.com/midyan/limitless-google-translate"
+  description: Translate large texts using the google-translate-api for NodeJS! The google-translate-api uses query string in a GET method to send the text to be translated to the translation service. This limits the amount a characters you can translate at once at 255 per request. This package chops the texts into smaller, coherent sentences, translates them and mount them back together into the text. This is all done asynchronously, so it won't block your code midway!
+
+#Springfield Donut Eater's User Group
+- project: Phone Case Creator
+  role: ""
+  duration: Apr, 2016 &mdash; July, 2016
+  # url: "create.gadplace.com"
+  description: I developed a taylor made web-based application that creates custom phone cases design for the GadPlace stores, located in Brasilia. Lucas created the responsive design to provide the best user experience. It was developed purely with HTML5, CSS3JavaScript, jQuery and PHP7.
