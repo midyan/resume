@@ -46,6 +46,17 @@
 
       </header>
 
+      <section class="content-section print-only">
+
+        <header class="section-header">
+          <h2>Software Engineer and Technology Enthusiast</h2>
+        </header>
+        <div class="executive-summary" itemprop="description">
+          {{ site.resume_header_intro }}
+        </div>
+
+      </section>
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
@@ -63,6 +74,7 @@
       </section>
       <!-- end Skills -->
       {% endif %}
+
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
@@ -124,8 +136,6 @@
       </section>
       <!-- end Projects -->
       {% endif %}
-
-
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
