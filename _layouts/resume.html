@@ -57,6 +57,29 @@
 
       </section>
 
+      {% if site.resume_section_languages %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Idiomas</h2>
+        </header>
+        {% for language in site.data.languages %}
+        <div class="resume-item">
+          <h3 class="resume-item-details" itemprop="language">{{ language.language }}</h3>
+          <ul class="resume-item-list">
+            <li><strong>Fala:</strong> {{ language.speak }}</li>
+            <li><strong>Leitura:</strong> {{ language.read }}</li>
+            <li><strong>Escrita:</strong> {{ language.write }}</li>
+            <li><strong>Compreensão:</strong> {{ language.listen }}</li>
+          </ul>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
